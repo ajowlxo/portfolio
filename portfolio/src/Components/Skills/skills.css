@@ -1,0 +1,97 @@
+.skillTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+  text-decoration: underline;
+  text-decoration-color: #4caf50;
+}
+
+.skillMain {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+.list {
+  font-weight: 700;
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+  color: #4caf50;
+}
+
+.skillImage > img {
+  height: 80px;
+  width: 80px;
+}
+
+.logo > img {
+  height: 80px;
+  width: 80px;
+}
+
+.skillsRight {
+  position: relative;
+}
+
+.skillImage {
+  position: relative;
+  margin-top: 2.5rem;
+  margin-left: -40rem;
+  height: 25rem;
+  width: 27rem;
+  border-radius: 100%;
+  background-color: #212121;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.skillImage > * {
+  position: absolute;
+}
+
+.skillImage > :nth-child(1) {
+  top: -2rem;
+  left: 11rem;
+}
+
+.skillImage > :nth-child(2) {
+  top: 5rem;
+  left: -1rem;
+}
+
+.skillImage > :nth-child(4) {
+  top: 15.5rem;
+  left: 23.5rem;
+}
+
+.skillImage > :nth-child(5) {
+  top: 22.3rem;
+  left: 11rem;
+}
+
+.skillImage > :nth-child(3) {
+  top: 15rem;
+  left: -1rem;
+}
+
+.skillImage > :nth-child(6) {
+  top: 5rem;
+  left: 23rem;
+}
+
+.fullstack {
+  margin-top: 11rem;
+  margin-left: 9.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #e74c3c;
+  padding: 8px;
+  border-radius: 10px;
+  border-left: none;
+}
+.Skills {
+  margin-bottom: 50px;
+  padding-top: 10px;
+}

@@ -1,0 +1,37 @@
+.navBar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.n_left {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.n_left > span {
+  color: #4caf50;
+}
+.n_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  right: 20px;
+  column-gap: 2rem;
+}
+
+.n_right > *:hover {
+  color: #4caf50;
+  cursor: pointer;
+}
+
+.line {
+  border: 2px solid #4caf50;
+  height: 14px;
+}
+
+.modeImg {
+  height: 22px;
+  width: 22px;
+}

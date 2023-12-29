@@ -1,0 +1,24 @@
+.projects {
+  margin-top: 4rem;
+}
+.projectTitle {
+  display: flex;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+  text-decoration: underline;
+  text-decoration-color: #4caf50;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards > a {
+  text-decoration: none;
+}

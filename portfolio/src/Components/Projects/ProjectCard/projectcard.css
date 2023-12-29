@@ -1,0 +1,62 @@
+.projectCard {
+  width: 25%;
+  margin: 40px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  transition: transform 100ms ease-in;
+
+  background-color: white;
+}
+
+/* .projectCard:hover {
+  transform: scale(1.07);
+  opacity: 0.6;
+} */
+
+.projectCard > img {
+  object-fit: fill;
+  width: 300px;
+  height: 200px;
+  width: 100%;
+}
+
+.projectInfo {
+  margin-top: -5px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  border: 1;
+}
+
+.projectInfo > h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -8px;
+}
+.projectInfo > p {
+  color: gray;
+}
+a:hover {
+  transform: scale(1.07);
+}
+/* .click {
+  font-size: 20px;
+  transform: scale(0);
+  transition: 0.8s;
+  position: absolute;
+  margin-top: 5.5rem;
+  color: #212121;
+  margin-left: 6rem;
+  opacity: 1;
+} */
+/* .click:hover {
+  opacity: 1;
+  transform: scale(1);
+} */
+/* .projectCard :hover > .click {
+  opacity: 1;
+  transform: scale(1);
+} */

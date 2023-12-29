@@ -1,0 +1,18 @@
+.toggle {
+  border: 2px solid white;
+  height: 17px;
+  width: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.toggleButton {
+  border: 2px solid #023e8a;
+  background-color: #023e8a;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
