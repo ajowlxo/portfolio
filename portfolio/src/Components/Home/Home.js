@@ -23,9 +23,11 @@ function Home() {
           <span>Full Stack Developer</span>
         </div>
         <div className="contactIcons">
-          <img src={LinkedIn} alt="" />
+          <img src={LinkedIn} alt="" className="gmailIcon" />
 
-          <img src={Github} alt="" />
+          <a href="https://github.com/ajowlxo">
+            <img src={Github} alt="" className="gmailIcon" />
+          </a>
 
           <a href="mailto:hamalarjun057@gmail.com">
             <img src={Gmail} alt="" className="gmailIcon" />

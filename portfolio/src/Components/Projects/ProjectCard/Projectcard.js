@@ -28,7 +28,7 @@ function Projectcard({ link, projectImg, projectTitle, projectDesc }) {
             fontSize: "12px",
           }}
         >
-          GO TO WEBSITE (CLICK ME)!!
+          GO TO WEBSITE (CLICK ME)
         </a>
       </div>
     </div>
