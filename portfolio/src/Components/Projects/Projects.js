@@ -16,13 +16,13 @@ function Projects() {
       <div className="projectTitle">PROJECTS</div>
       <div className="cards">
         <Projectcard
-          link="https://blog-next-drab-one.vercel.app/"
+          link="https://ecom-mern-nine.vercel.app/"
           projectTitle="Ecommerce"
           projectDesc="Ecommerce mern stack app responsive UI."
           projectImg={ecom}
         />
         <Projectcard
-          link="https://ecom-mern-nine.vercel.app/"
+          link="https://blog-next-drab-one.vercel.app/"
           projectTitle="BlogSite"
           projectDesc="Appealing Next js responsive UI "
           projectImg={blog}
